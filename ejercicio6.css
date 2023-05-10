@@ -1,0 +1,23 @@
+.boton-contenedor{
+    background-color:#4B4A67;
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    
+    
+}
+
+button.boton-contenedor::before{
+    display: none;
+    content: "Pasa por encima";
+    }
+
+button.boton-contenedor:hover{
+    background-color: green;
+    color: white; 
+    }
+   
+    button.boton-contenedor::after{
+        
+        content:"Hecho";
+        }
+
